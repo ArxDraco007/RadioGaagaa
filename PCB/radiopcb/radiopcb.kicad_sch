@@ -2711,10 +2711,6 @@
 		(color 0 0 0 0)
 		(uuid "ad4d0ca8-c8e5-48b2-aa62-893d8bc6c9b6")
 	)
-	(no_connect
-		(at 163.83 104.14)
-		(uuid "692dd110-c3b8-4aa6-bd15-d8fe5d347268")
-	)
 	(wire
 		(pts
 			(xy 57.15 50.8) (xy 57.15 58.42)
@@ -3067,7 +3063,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 107.95) (xy 163.83 106.68)
+			(xy 163.83 101.6) (xy 163.83 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3285,7 +3281,7 @@
 		)
 		(uuid "874bad65-268f-41a6-a145-e4a76afcdbb3")
 	)
-	(label "R-OUT"
+	(label "R_OUT"
 		(at 140.97 106.68 0)
 		(effects
 			(font
@@ -3305,7 +3301,7 @@
 		)
 		(uuid "93220146-7595-46cc-9501-97dd3a4de315")
 	)
-	(label "L-OUT"
+	(label "L_OUT"
 		(at 140.97 109.22 0)
 		(effects
 			(font
@@ -3977,7 +3973,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector:FanPinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 53.34 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4332,7 +4328,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector:FanPinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 53.34 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5214,7 +5210,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:FanPinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 213.36 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6088,7 +6084,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Module:MOUDLE14P-XIAO-DIP-SMD"
+		(property "Footprint" "Static:XIAO-RP2040-DIP"
 			(at 56.388 123.698 0)
 			(hide yes)
 			(show_name no)
@@ -6490,8 +6486,8 @@
 	)
 	(symbol
 		(lib_id "Static_Symbol_Library:PJ-3200")
-		(at 170.18 102.87 0)
-		(mirror y)
+		(at 170.18 102.87 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6502,7 +6498,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1442337-a747-484d-a73f-1b2f5075c2b3")
 		(property "Reference" "CN1"
-			(at 177.8 102.8699 0)
+			(at 175.26 99.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6513,7 +6509,7 @@
 			)
 		)
 		(property "Value" "PJ-3200"
-			(at 177.8 105.4099 0)
+			(at 175.26 101.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6524,7 +6520,7 @@
 			)
 		)
 		(property "Footprint" "Static:AUDIO-TH_PJ-3200"
-			(at 170.18 114.3 0)
+			(at 181.61 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6535,7 +6531,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2689690.pdf"
-			(at 170.18 116.84 0)
+			(at 184.15 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6557,7 +6553,7 @@
 			)
 		)
 		(property "Manufacturer" "XKB Connection(中国星坤)"
-			(at 170.18 119.38 0)
+			(at 186.69 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6568,7 +6564,7 @@
 			)
 		)
 		(property "MPN" "PJ-3200"
-			(at 170.18 121.92 0)
+			(at 189.23 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6579,7 +6575,7 @@
 			)
 		)
 		(property "LCSC Part" "C2689690"
-			(at 170.18 124.46 0)
+			(at 191.77 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
